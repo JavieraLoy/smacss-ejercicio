@@ -1,7 +1,7 @@
 /* BASE */
- body { 
+body { 
     font-family: sans-serif; 
-    background: #333; 
+    min-height: 100vh;
     margin: 0; 
 }
 /* LAYOUT */
@@ -72,7 +72,8 @@
 /*THEME*/
 .theme-retro {
     background: linear-gradient(to bottom, purple, yellow);
-
+    background-size: cover;
+    background-repeat: no-repeat; 
 }
 
 
